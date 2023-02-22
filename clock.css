@@ -22,7 +22,7 @@ body {
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
-    padding: 2rem;
+    /*padding: 2rem;*/
     box-shadow:
             0 0 0 4px #9145e5,
             inset 0 0 0 3px rgb(81, 220, 20),
@@ -37,4 +37,7 @@ body {
     position: absolute;
     top: 50%;
     transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.19, 1.28, 1, 1.49);
 }
