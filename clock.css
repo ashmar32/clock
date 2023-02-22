@@ -39,5 +39,5 @@ body {
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
-    transition-timing-function: cubic-bezier(0.19, 1.28, 1, 1.49);
+    transition-timing-function: ease-in-out;
 }
